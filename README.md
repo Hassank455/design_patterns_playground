@@ -18,6 +18,8 @@ It is designed to be expandable, with new patterns added over time.
 
 - Abstract Factory  
   Details: `src/abstract-factory/README.md`
+- Singleton  
+  Details: `src/singleton/README.md`
 
 ## Run
 

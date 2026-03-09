@@ -2,12 +2,14 @@
   "name": "design-patterns-playground",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "description": "TypeScript examples for design patterns",
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "example:payment": "node dist/abstract-factory/payment_provider.js",
     "example:notification": "node dist/abstract-factory/notification_channel.js",
-    "check": "npm run build && npm run example:payment && npm run example:notification"
+    "example:singleton": "node dist/singleton/test.js",
+    "check": "npm run build && npm run example:payment && npm run example:notification && npm run example:singleton"
   },
   "devDependencies": {
     "typescript": "^5.9.2"
