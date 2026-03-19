@@ -9,7 +9,11 @@
     "example:payment": "node dist/abstract-factory/payment_provider.js",
     "example:notification": "node dist/abstract-factory/notification_channel.js",
     "example:singleton": "node dist/singleton/test.js",
-    "check": "npm run build && npm run example:payment && npm run example:notification && npm run example:singleton"
+    "example:factory-transport": "node dist/factory_method/transport.js",
+    "example:factory-notification": "node dist/factory_method/notification.js",
+    "example:factory-logger": "node dist/factory_method/logger.js",
+    "example:factory-parser": "node dist/factory_method/parser.js",
+    "check": "npm run build && npm run example:payment && npm run example:notification && npm run example:singleton && npm run example:factory-transport && npm run example:factory-notification && npm run example:factory-logger && npm run example:factory-parser"
   },
   "devDependencies": {
     "typescript": "^5.9.2"

@@ -16,7 +16,7 @@ interface Invoice {
   send(invoiceId: string): Promise<string>;
 }
 
-/* ========= Abstract Factory ========= */
+/* ========= Abstract Factory ========= */  
 
 interface PaymentProviderFactory {
   createPayment(): Payment;
