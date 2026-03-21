@@ -24,6 +24,8 @@ It is designed to be expandable, with new patterns added over time.
   Details: `src/singleton/README.md`
 - Adapter  
   Details: `src/adapter/README.md`
+- Facade  
+  Details: `src/facade/README.md`
 
 ## Run
 
@@ -33,6 +35,22 @@ It is designed to be expandable, with new patterns added over time.
    - `npm run build`
 3. Run the current smoke checks:
    - `npm run check`
+
+## Individual Examples
+
+- `npm run example:payment`
+- `npm run example:notification`
+- `npm run example:singleton`
+- `npm run example:factory-transport`
+- `npm run example:factory-notification`
+- `npm run example:factory-logger`
+- `npm run example:factory-parser`
+- `npm run example:adapter-payment`
+- `npm run example:adapter-logger`
+- `npm run example:adapter-xml-json`
+- `npm run example:facade-home-theater`
+- `npm run example:facade-checkout`
+- `npm run example:facade-smart-home`
 
 ## Notes
 
