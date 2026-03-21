@@ -13,7 +13,10 @@
     "example:factory-notification": "node dist/factory_method/notification.js",
     "example:factory-logger": "node dist/factory_method/logger.js",
     "example:factory-parser": "node dist/factory_method/parser.js",
-    "check": "npm run build && npm run example:payment && npm run example:notification && npm run example:singleton && npm run example:factory-transport && npm run example:factory-notification && npm run example:factory-logger && npm run example:factory-parser"
+    "example:adapter-payment": "node dist/adapter/payment_adapter.js",
+    "example:adapter-logger": "node dist/adapter/logger_adapter.js",
+    "example:adapter-xml-json": "node dist/adapter/xml_json_adapter.js",
+    "check": "npm run build && npm run example:payment && npm run example:notification && npm run example:singleton && npm run example:factory-transport && npm run example:factory-notification && npm run example:factory-logger && npm run example:factory-parser && npm run example:adapter-payment && npm run example:adapter-logger && npm run example:adapter-xml-json"
   },
   "devDependencies": {
     "typescript": "^5.9.2"

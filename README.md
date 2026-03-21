@@ -22,6 +22,8 @@ It is designed to be expandable, with new patterns added over time.
   Details: `src/factory_method/README.md`
 - Singleton  
   Details: `src/singleton/README.md`
+- Adapter  
+  Details: `src/adapter/README.md`
 
 ## Run
 
